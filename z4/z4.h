@@ -7,6 +7,17 @@
 #ifndef Z4_H_
 #define Z4_H_
 
+//Standardna C biblioteka
+#include <stdio.h>
+//Standardna arduino biblioteka
+#include <avr/io.h>
+//Biblioteka koja omogucava rad sa funkcijom za kasnjenje _delay_ms()
+#include <util/delay.h>
+//Arduino biblioteka za pristupanje podacima u flash memoriji
+#include <avr/pgmspace.h>
+//Pristupanje statickoj usart biblioteci
+#include "../usart/usart.h"
+
 
 /**
  * Funkcija ocitava karakter na osnovu kog ce se izvrsiti odgovarajuca operacija
